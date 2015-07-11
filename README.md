@@ -12,12 +12,13 @@ A Backbone.JS Client for viewing synchronized videos
 
 ## Prerequisites
 
-   * Node.JS Express Static Web Server, nginx, Apache Web Server
-   * Bower for Dependencies
+   * SoFlix Server - https://github.com/tewebsolutions/soflix-server
+   * Bower for Dependency Management
    
 ## Setting up the app
-
-   * Run `bower install` at the root folder to download dependencies.
+   * Checkout `git clone https://github.com/tewebsolutions/soflix-client && cd soflix-client`
+   * Run `bower install` to download dependencies.
+   * Download and setup SoFlix Server
    * Set `CLIENT_PATH` in soflix-server to current directory
 
 
