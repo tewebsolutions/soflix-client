@@ -1,0 +1,50 @@
+{
+  "name": "soflix-client",
+  "version": "0.0.5",
+  "description": "SoFlix lets you stream movies with friends in real-time.",
+  "main": "main.js",
+  "keywords": [
+    "video",
+    "streaming",
+    "chat",
+    "webrtc",
+    "group",
+    "live",
+    "group",
+    "chat"
+  ],
+  "authors": [
+    "Eyasu Kifle"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tewebsolutions/soflix-client/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "autogrow-textarea": "*",
+    "backbone": "~1.1.0",
+    "blockui": "*",
+    "bootstrap": "~3.0.0",
+    "flowplayer": "~5.4.6",
+    "furatto": "~2.0.0",
+    "gumby": "~2.6.1",
+    "jquery-autogrow": "*",
+    "jquery-cookie": "~1.4.0",
+    "jquery": "~2.0.3",
+    "jwplayer-mirror": "~6.7.4071",
+    "messenger": "~1.4.0",
+    "modernizr": "~2.7.1",
+    "mustache": "~0.7.2",
+    "nprogress": "~0.1.2",
+    "requirejs-text": "~2.0.10",
+    "requirejs": "~2.1.8",
+    "underscore": "~1.5.2"
+  }
+}

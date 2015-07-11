@@ -1,0 +1,12 @@
+
+<ul>
+{{#users}}
+<li class="user-list-item row">
+<div class="row">
+  <div class="two columns"><img class="user-list-item-thumb" class="circular" src="http://graph.facebook.com/{{{id}}}/picture?type=square&width=25&height=25"/></div>  
+  <div class="eight columns user-list-item-name">{{displayName}}</div>
+  <div class="two columns"><i class="user-list-item-status {{#statusclass}}{{status.status}}{{/statusclass}}"></i></i></div>  
+ </div>
+</li>
+{{/users}}
+</ul>

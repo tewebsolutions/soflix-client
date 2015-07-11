@@ -1,0 +1,37 @@
+
+
+          <nav class="navbar">
+            <ul class="eight columns">
+              {{#state.loggedIn}}
+                <li><a class="brand {{#page.account/profile}}active{{/page.account/profile}}" href="account/profile">{{user.displayName}}'s SoFlix</a></li>
+                
+                 <li class="{{#page.main}}active{{/page.main}}"><a href="#main">Main Room</a></li> 
+                <!--<li class="{{#page.rooms}}active{{/page.rooms}}"><a href="#rooms">Rooms</a></li> -->
+                <!-- <li class="{{#page.videos}}active{{/page.videos}}"><a href="#videos">Videos</a></li> -->
+                <li><a data-bypass class="" href="/api/auth/logout">Logout</a></li>
+              {{/state.loggedIn}}
+              {{^state.loggedIn}}
+                <li class="active"><a data-bypass href="/api/auth/facebook">Login</a></li>
+              {{/state.loggedIn}}
+              
+            </ul>
+        
+          </nav>
+          
+  <div class="row">
+  </div>
+
+  <div class="container-center">
+  
+    <div id="content" class="row">
+        {{^state.loggedIn}}
+                <div class="col-12 step">
+                     <h2>Welcome to SoFlix</h2>
+                     <div class="large primary btn"><a data-bypass href="/api/auth/facebook" id="btnFacebookLogin">Login with Facebook</a></div>
+
+                     
+                   </div>
+        {{/state.loggedIn}}
+       
+    </div>
+  </div>
