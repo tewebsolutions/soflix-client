@@ -6,12 +6,6 @@
 
 A Backbone.JS Client for viewing synchronized videos
 
-   * Create Video Rooms and Play Shared Videos
-   * Authenticate with Facebook
-   * Convert videos into different bitrate formats using AWS Elastic Transcoder
-   * Chat with Friends, Set up/revoke permissions
-
-
 ##Features
 
  * Upload Movies to Amazon S3 and Stream
@@ -31,21 +25,13 @@ A Backbone.JS Client for viewing synchronized videos
 ####Client
  * Modularize JS Code into Separate Files (app.js)
  * Create View for Custom Rooms, Profile
- * Fix OpenTok Issues
+ * Implement WebRTC WebCam Sessions
  * Implement Video Upload Feature (Currently hardcoded AWS bucket)
 
- 
+
 ####Server
- * Optimize Beacon Feature (Possibly Server Side Events)
+ * Optimize Beacon Logic
  * Implement AWS S3 Upload Feature
-  
-##Requirements
- * Apache/Nginx for Front-end
- * Node.JS/MongoDB Instance for Back-end
- * Facebook APP ID, OpenTok API Key, AWS Credentials
- * Component Requirements in package.json
- 
-   
 
 ## Prerequisites
 
